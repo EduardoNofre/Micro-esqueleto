@@ -21,7 +21,7 @@ import lombok.Setter;
 @Getter
 @Setter
 @Table(name = "TimestampTab")
-public class TimestampEntity {
+public class TimestampEntity { 
 
 	@Id
 	@GeneratedValue(strategy = GenerationType.AUTO)
